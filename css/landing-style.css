@@ -1,0 +1,158 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(31, 41, 55);
+    align-items: center;
+    
+}
+
+#media-image {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid blue;
+    border-radius: 10%;
+}
+#media-text {
+    width: 10rem;
+    text-wrap: wrap;
+}
+#media-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
+#media-header {
+    display: flex;
+    justify-content: center;
+}
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 7rem;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 20px;
+    gap: 20px;
+    
+}
+
+#container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: rgb(31, 41, 55);
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+#sign-up-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#sign-up-description h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#sign-up-description p {
+    font-size: 10px;
+}
+
+#image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 116, 125);
+    font-size: 20px;
+    padding-right: 7rem;
+}
+
+button {
+    background-color: #3b82f6;
+    border-radius: 20px;
+}
+
+#container-3 {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quote-text {
+    display: flex;
+    justify-content: left;
+    width: 500px;
+    text-wrap: wrap;
+    font-style: italic;
+    font-size: 15px;
+}
+#quote-reference {
+    display: flex;
+    justify-content: right;
+    width: 500px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#container-4 {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: aqua;
+}
+#container-4-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+#button2 {
+    appearance: none;
+    background: none;
+    border: 3px solid white;
+    width: 70px;
+    height: 20px;
+    padding: 0;
+    margin: auto;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+#button2:hover {
+    background-color: azure;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
